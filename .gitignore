@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor files
+.vscode/
+.idea/
+
+# Generated MacOps reports
+reports/*
+!reports/.gitkeep
+
+# Environment / secret files
+.env
+.env.*
+*.key
+*.pem
